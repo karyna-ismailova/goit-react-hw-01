@@ -2,7 +2,7 @@ import styles from './Profile.module.css'
 export default function Profile({ name, tag, location, image, stats }) {
     return (
         <div className={styles.account}>
-  <div >
+  <div className={styles.about}>
     <img
                     src={image}
                     width={48}
